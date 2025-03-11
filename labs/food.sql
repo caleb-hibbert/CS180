@@ -55,10 +55,10 @@ DROP TABLE IF EXISTS employee; --Use this before re-running the CREATE TABLE sta
 
 -- employee Table
 CREATE TABLE employee (
- emp_id INT PRIMARY KEY, 
- firstname TEXT, 
- lastname TEXT, 
- hiredate TEXT, 
+ emp_id INT PRIMARY KEY,
+ firstname TEXT,
+ lastname TEXT,
+ hiredate TEXT,
  branch TEXT
 );
 

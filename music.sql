@@ -88,7 +88,7 @@
 -- -- List the top 3 playlists with the highest number of tracks.
 -- SELECT p.Name AS Name, COUNT(pt.TrackId) AS TrackCount
 -- FROM Playlist AS p
--- JOIN PlaylistTrack AS pt ON p.PlaylistId = pt.PlaylistId
+--  PlaylistTrack AS pt ON p.PlaylistId = pt.PlaylistId
 -- GROUP BY p.Name
 -- ORDER BY TrackCount DESC
 -- LIMIT 3;
